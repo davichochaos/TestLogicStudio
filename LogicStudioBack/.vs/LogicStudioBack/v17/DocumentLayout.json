@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Documents\\TestLogicStudio\\LogicStudioBack\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4CC30F-9E6C-4ABF-B7B8-ABD47E84ABFE}|MicroserviceProduct\\MicroserviceProduct.csproj|c:\\users\\hp\\documents\\testlogicstudio\\logicstudioback\\microserviceproduct\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1C4CC30F-9E6C-4ABF-B7B8-ABD47E84ABFE}|MicroserviceProduct\\MicroserviceProduct.csproj|solutionrelative:microserviceproduct\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4CC30F-9E6C-4ABF-B7B8-ABD47E84ABFE}|MicroserviceProduct\\MicroserviceProduct.csproj|c:\\users\\hp\\documents\\testlogicstudio\\logicstudioback\\microserviceproduct\\models\\logicstudiocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4CC30F-9E6C-4ABF-B7B8-ABD47E84ABFE}|MicroserviceProduct\\MicroserviceProduct.csproj|solutionrelative:microserviceproduct\\models\\logicstudiocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4CC30F-9E6C-4ABF-B7B8-ABD47E84ABFE}|MicroserviceProduct\\MicroserviceProduct.csproj|c:\\users\\hp\\documents\\testlogicstudio\\logicstudioback\\microserviceproduct\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4CC30F-9E6C-4ABF-B7B8-ABD47E84ABFE}|MicroserviceProduct\\MicroserviceProduct.csproj|solutionrelative:microserviceproduct\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4CC30F-9E6C-4ABF-B7B8-ABD47E84ABFE}|MicroserviceProduct\\MicroserviceProduct.csproj|c:\\users\\hp\\documents\\testlogicstudio\\logicstudioback\\microserviceproduct\\services\\productsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4CC30F-9E6C-4ABF-B7B8-ABD47E84ABFE}|MicroserviceProduct\\MicroserviceProduct.csproj|solutionrelative:microserviceproduct\\services\\productsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A72274A4-AF52-44E5-9E09-83B683A8C2D4}|MicroserviceTransaction\\MicroserviceTransaction.csproj|c:\\users\\hp\\documents\\testlogicstudio\\logicstudioback\\microservicetransaction\\services\\transactionsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A72274A4-AF52-44E5-9E09-83B683A8C2D4}|MicroserviceTransaction\\MicroserviceTransaction.csproj|solutionrelative:microservicetransaction\\services\\transactionsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A72274A4-AF52-44E5-9E09-83B683A8C2D4}|MicroserviceTransaction\\MicroserviceTransaction.csproj|c:\\users\\hp\\documents\\testlogicstudio\\logicstudioback\\microservicetransaction\\services\\itransactionsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A72274A4-AF52-44E5-9E09-83B683A8C2D4}|MicroserviceTransaction\\MicroserviceTransaction.csproj|solutionrelative:microservicetransaction\\services\\itransactionsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A72274A4-AF52-44E5-9E09-83B683A8C2D4}|MicroserviceTransaction\\MicroserviceTransaction.csproj|c:\\users\\hp\\documents\\testlogicstudio\\logicstudioback\\microservicetransaction\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A72274A4-AF52-44E5-9E09-83B683A8C2D4}|MicroserviceTransaction\\MicroserviceTransaction.csproj|solutionrelative:microservicetransaction\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4CC30F-9E6C-4ABF-B7B8-ABD47E84ABFE}|MicroserviceProduct\\MicroserviceProduct.csproj|c:\\users\\hp\\documents\\testlogicstudio\\logicstudioback\\microserviceproduct\\services\\iproductsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4CC30F-9E6C-4ABF-B7B8-ABD47E84ABFE}|MicroserviceProduct\\MicroserviceProduct.csproj|solutionrelative:microserviceproduct\\services\\iproductsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A72274A4-AF52-44E5-9E09-83B683A8C2D4}|MicroserviceTransaction\\MicroserviceTransaction.csproj|c:\\users\\hp\\documents\\testlogicstudio\\logicstudioback\\microservicetransaction\\models\\transactionname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A72274A4-AF52-44E5-9E09-83B683A8C2D4}|MicroserviceTransaction\\MicroserviceTransaction.csproj|solutionrelative:microservicetransaction\\models\\transactionname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A72274A4-AF52-44E5-9E09-83B683A8C2D4}|MicroserviceTransaction\\MicroserviceTransaction.csproj|c:\\users\\hp\\documents\\testlogicstudio\\logicstudioback\\microservicetransaction\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A72274A4-AF52-44E5-9E09-83B683A8C2D4}|MicroserviceTransaction\\MicroserviceTransaction.csproj|solutionrelative:microservicetransaction\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A72274A4-AF52-44E5-9E09-83B683A8C2D4}|MicroserviceTransaction\\MicroserviceTransaction.csproj|c:\\users\\hp\\documents\\testlogicstudio\\logicstudioback\\microservicetransaction\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A72274A4-AF52-44E5-9E09-83B683A8C2D4}|MicroserviceTransaction\\MicroserviceTransaction.csproj|solutionrelative:microservicetransaction\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\TestLogicStudio\\LogicStudioBack\\MicroserviceProduct\\appsettings.json",
+              "RelativeDocumentMoniker": "MicroserviceProduct\\appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\Documents\\TestLogicStudio\\LogicStudioBack\\MicroserviceProduct\\appsettings.json",
+              "RelativeToolTip": "MicroserviceProduct\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-15T08:08:22.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "logicStudioContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\TestLogicStudio\\LogicStudioBack\\MicroserviceProduct\\Models\\logicStudioContext.cs",
+              "RelativeDocumentMoniker": "MicroserviceProduct\\Models\\logicStudioContext.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\TestLogicStudio\\LogicStudioBack\\MicroserviceProduct\\Models\\logicStudioContext.cs",
+              "RelativeToolTip": "MicroserviceProduct\\Models\\logicStudioContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T08:07:34.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITransactionsService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\TestLogicStudio\\LogicStudioBack\\MicroserviceTransaction\\Services\\ITransactionsService.cs",
+              "RelativeDocumentMoniker": "MicroserviceTransaction\\Services\\ITransactionsService.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\TestLogicStudio\\LogicStudioBack\\MicroserviceTransaction\\Services\\ITransactionsService.cs",
+              "RelativeToolTip": "MicroserviceTransaction\\Services\\ITransactionsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T18:13:17.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\TestLogicStudio\\LogicStudioBack\\MicroserviceProduct\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "MicroserviceProduct\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\TestLogicStudio\\LogicStudioBack\\MicroserviceProduct\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "MicroserviceProduct\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAgwEkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T17:56:24.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TransactionsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\TestLogicStudio\\LogicStudioBack\\MicroserviceTransaction\\Controllers\\TransactionsController.cs",
+              "RelativeDocumentMoniker": "MicroserviceTransaction\\Controllers\\TransactionsController.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\TestLogicStudio\\LogicStudioBack\\MicroserviceTransaction\\Controllers\\TransactionsController.cs",
+              "RelativeToolTip": "MicroserviceTransaction\\Controllers\\TransactionsController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T17:49:21.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TransactionsService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\TestLogicStudio\\LogicStudioBack\\MicroserviceTransaction\\Services\\TransactionsService.cs",
+              "RelativeDocumentMoniker": "MicroserviceTransaction\\Services\\TransactionsService.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\TestLogicStudio\\LogicStudioBack\\MicroserviceTransaction\\Services\\TransactionsService.cs",
+              "RelativeToolTip": "MicroserviceTransaction\\Services\\TransactionsService.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T17:51:30.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductsService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\TestLogicStudio\\LogicStudioBack\\MicroserviceProduct\\Services\\ProductsService.cs",
+              "RelativeDocumentMoniker": "MicroserviceProduct\\Services\\ProductsService.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\TestLogicStudio\\LogicStudioBack\\MicroserviceProduct\\Services\\ProductsService.cs",
+              "RelativeToolTip": "MicroserviceProduct\\Services\\ProductsService.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T22:52:36.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IProductsService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\TestLogicStudio\\LogicStudioBack\\MicroserviceProduct\\Services\\IProductsService.cs",
+              "RelativeDocumentMoniker": "MicroserviceProduct\\Services\\IProductsService.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\TestLogicStudio\\LogicStudioBack\\MicroserviceProduct\\Services\\IProductsService.cs",
+              "RelativeToolTip": "MicroserviceProduct\\Services\\IProductsService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAawAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T22:52:29.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TransactionName.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\TestLogicStudio\\LogicStudioBack\\MicroserviceTransaction\\Models\\TransactionName.cs",
+              "RelativeDocumentMoniker": "MicroserviceTransaction\\Models\\TransactionName.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\TestLogicStudio\\LogicStudioBack\\MicroserviceTransaction\\Models\\TransactionName.cs",
+              "RelativeToolTip": "MicroserviceTransaction\\Models\\TransactionName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T17:47:25.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Transaccion.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\TestLogicStudio\\LogicStudioBack\\MicroserviceTransaction\\Models\\Transaccion.cs",
+              "RelativeDocumentMoniker": "MicroserviceTransaction\\Models\\Transaccion.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\TestLogicStudio\\LogicStudioBack\\MicroserviceTransaction\\Models\\Transaccion.cs",
+              "RelativeToolTip": "MicroserviceTransaction\\Models\\Transaccion.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T17:46:21.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\TestLogicStudio\\LogicStudioBack\\MicroserviceTransaction\\Program.cs",
+              "RelativeDocumentMoniker": "MicroserviceTransaction\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\TestLogicStudio\\LogicStudioBack\\MicroserviceTransaction\\Program.cs",
+              "RelativeToolTip": "MicroserviceTransaction\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T17:22:25.88Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

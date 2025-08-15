@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "MicroserviceTransaction.Controllers.TransactionsController",
+    "Method": "Create",
+    "RelativePath": "api/v1/transaction/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "MicroserviceTransaction.Models.CreateTransaccion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroserviceTransaction.Controllers.TransactionsController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/transaction/delete/{transaccionId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transaccionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroserviceTransaction.Controllers.TransactionsController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/transaction/get-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroserviceTransaction.Controllers.TransactionsController",
+    "Method": "GetTransactionById",
+    "RelativePath": "api/v1/transaction/get-by-id/{transaccionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transaccionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroserviceTransaction.Controllers.TransactionsController",
+    "Method": "Update",
+    "RelativePath": "api/v1/transaction/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "MicroserviceTransaction.Models.Transaccion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

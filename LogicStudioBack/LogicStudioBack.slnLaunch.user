@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "MicroserviceProduct\\MicroserviceProduct.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "MicroserviceTransaction\\MicroserviceTransaction.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,108 @@
+[
+  {
+    "ContainingType": "MicroserviceProduct.Controllers.ProductsController",
+    "Method": "Create",
+    "RelativePath": "api/v1/product/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "MicroserviceProduct.Models.CreateProducto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroserviceProduct.Controllers.ProductsController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/product/delete/{productId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroserviceProduct.Controllers.ProductsController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/product/get-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroserviceProduct.Controllers.ProductsController",
+    "Method": "GetProductById",
+    "RelativePath": "api/v1/product/get-by-id/{productId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroserviceProduct.Controllers.ProductsController",
+    "Method": "GetProductsByIds",
+    "RelativePath": "api/v1/product/get-by-ids",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroserviceProduct.Controllers.ProductsController",
+    "Method": "Update",
+    "RelativePath": "api/v1/product/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "MicroserviceProduct.Models.Producto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroserviceProduct.Controllers.ProductsController",
+    "Method": "UpdateStockProduct",
+    "RelativePath": "api/v1/product/update-stock",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "MicroserviceProduct.Models.UpdateStock",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
