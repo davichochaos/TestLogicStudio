@@ -1,0 +1,84 @@
+<div class="container-fluid">
+    <div class="row pb-4 pt-4">
+        <div class="col-md text-center">
+            <h1>{{titulo()}}</h1>
+        </div>
+    </div>
+    <div class="row" style="margin-left: 10%; margin-right: 10%;">
+        <form (ngSubmit)="saveTransaction()">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="formControlTipo" class="form-label">Tipo transacción</label>
+                        <select class="form-select" id="formControlTipo" [(ngModel)]="transaction.transaccionTipo"
+                            name="transaccionTipo">
+                            <option value="" disabled selected>Seleccione un tipo</option>
+                            <option value="Venta">Venta</option>
+                            <option value="Compra">Compra</option>
+                        </select>
+                        @if (formErrors.tipoTransaccion) {
+                        <div class="alert alert-danger" role="alert">
+                            Debe seleccionar un tipo de transacción
+                        </div>
+                        }
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="formControlProducto" class="form-label">Producto</label>
+                        <select class="form-select" id="formControlProducto" [(ngModel)]="transaction.productoId"
+                            name="productoId" [value]="idProduct()" (change)="updateProductId($event)">
+                            @for (product of products(); track product.productoId) {
+                            <option value="{{product.productoId}}">{{product.productoNombre}}</option>
+                            }
+                        </select>
+                        @if (formErrors.idProducto) {
+                        <div class="alert alert-danger" role="alert">
+                            Debe seleccionar un producto
+                        </div>
+                        }
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="formControlCantidad" class="form-label">Cantidad</label>
+                        <input type="number" min="1" class="form-control" id="formControlCantidad"
+                            [(ngModel)]="transaction.cantidad" name="cantidad" (input)="updateCantidad($event)"
+                            [value]="cantidad()">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="formControlPrecioUni" class="form-label">Precio unitario</label>
+                        <input type="number" class="form-control" id="formControlPrecioUni" readonly
+                            [value]="asignacionProducto()">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="formControlPrecioTotal" class="form-label">Precio total</label>
+                        <input type="number" class="form-control" id="formControlPrecioTotal" readonly [value]="preciotTotal()">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="formControlDetalle" class="form-label">Detalle</label>
+                        <input type="text" class="form-control" id="formControlDetalle"
+                            [(ngModel)]="transaction.transaccionDetalle" name="transaccionDetalle"
+                            placeholder="Transacción detalle">
+                            @if (formErrors.detalle) {
+                        <div class="alert alert-danger" role="alert">
+                            Debe ingresar un detalle
+                        </div>
+                        }
+                    </div>
+                </div>
+                <div class="col-md text-end">
+                    <button class="btn btn-outline-primary" type="submit">Guardar</button>
+                    <button class="btn btn-outline-danger" type="button" (click)="cancelSave()">Cancelar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<app-alert></app-alert>

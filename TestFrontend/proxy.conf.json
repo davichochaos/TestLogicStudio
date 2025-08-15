@@ -1,0 +1,20 @@
+{
+    "/bprd": {
+        "target": "http://localhost:5144/",
+        "secure": false,
+        "changeOrigin": true,
+        "logLevel": "debug",
+        "pathRewrite": {
+            "^/bprd": "/api/v1/product"
+        }
+    },
+    "/btr": {
+        "target": "http://localhost:5016/",
+        "secure": false,
+        "changeOrigin": true,
+        "logLevel": "debug",
+        "pathRewrite": {
+            "^/btr": "/api/v1/transaction"
+        }
+    }
+}

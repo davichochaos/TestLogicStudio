@@ -1,0 +1,84 @@
+<div class="container-fluid">
+    <div class="row pb-4 pt-4">
+        <div class="col-md text-center">
+            <h1>{{titulo()}}</h1>
+        </div>
+    </div>
+    <div class="row" style="margin-left: 10%; margin-right: 10%;">
+        <form (ngSubmit)="saveProduct()">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="formControlNombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="formControlNombre" [(ngModel)]="product.productoNombre" name="productoNombre" placeholder="Nombre producto">
+                        @if (formErrors.productoNombre) {
+                        <div class="alert alert-danger" role="alert">
+                            Debe ingresar el nombre del producto
+                        </div>
+                        }
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="formControlDescripcion" class="form-label">Descripción</label>
+                        <input type="text" class="form-control" id="formControlDescripcion" [(ngModel)]="product.productoDescripcion" name="productoDescripcion" placeholder="Descripción">
+                        @if (formErrors.productoDescripcion) {
+                        <div class="alert alert-danger" role="alert">
+                            Debe ingresar una descripción
+                        </div>
+                        }
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="formControlCategoria" class="form-label">Categoría</label>
+                        <input type="text" class="form-control" id="formControlCategoria" [(ngModel)]="product.productoCategoria" name="productoCategoria" placeholder="Categoría">
+                        @if (formErrors.productoCategoria) {
+                        <div class="alert alert-danger" role="alert">
+                            Debe ingresar una categoría
+                        </div>
+                        }
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="formControlUrlImagen" class="form-label">Url Imagen</label>
+                        <input type="text" class="form-control" id="formControlUrlImagen" [(ngModel)]="product.productoImagen" name="productoImagen" placeholder="Url Imagen">
+                        @if (formErrors.productoImagen) {
+                        <div class="alert alert-danger" role="alert">
+                            Debe ingresar una url para la imagen
+                        </div>
+                        }
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="formControlPrecio" class="form-label">Precio</label>
+                        <input type="number" class="form-control" id="formControlPrecio" [(ngModel)]="product.productoPrecio" name="productoPrecio" placeholder="Precio"
+                            min="0.01">
+                            @if (formErrors.productoPrecio) {
+                        <div class="alert alert-danger" role="alert">
+                            Debe ingresar un precio para el producto
+                        </div>
+                        }
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="formControlStock" class="form-label">Stock</label>
+                        <input type="number" class="form-control" id="formControlStock" [(ngModel)]="product.productoStock" name="productoStock" placeholder="Stock" min="1">
+                        @if (formErrors.productoStock) {
+                        <div class="alert alert-danger" role="alert">
+                            Debe ingresar un stock
+                        </div>
+                        }
+                    </div>
+                </div>
+                <div class="col-md text-end">
+                    <button class="btn btn-outline-primary" type="submit">Guardar</button>
+                    <button class="btn btn-outline-danger" type="button" (click)="cancelSave()">Cancelar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
